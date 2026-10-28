@@ -6,7 +6,7 @@ Dark Mozilla-style theme for [Slidev](https://sli.dev), extracted from the MozFe
 
 ```md
 ---
-theme: ./slidev-theme-mozilla   # or the package name once published
+theme: slidev-theme-mozilla
 ---
 ```
 
