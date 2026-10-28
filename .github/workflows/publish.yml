@@ -16,10 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # No registry-url here: setup-node would write an .npmrc that sends a
+      # placeholder NODE_AUTH_TOKEN, which blocks the OIDC token exchange.
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-          registry-url: https://registry.npmjs.org
 
       - name: Use npm with trusted publishing support
         run: npm install -g npm@latest
