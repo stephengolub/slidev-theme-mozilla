@@ -1,6 +1,6 @@
 # slidev-theme-mozilla
 
-Dark Mozilla-style theme for [Slidev](https://sli.dev), extracted from the MozFest 2026 talk "Attack the AI. Then Defend It."
+Dark Mozilla-style theme for [Slidev](https://sli.dev).
 
 ## Use
 
