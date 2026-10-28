@@ -1,0 +1,43 @@
+@import './tokens.css';
+
+.slidev-layout {
+  background: var(--moz-bg);
+  color: var(--moz-text-body);
+  font-family: var(--moz-font-sans);
+  line-height: 1.5;
+}
+
+.slidev-layout h1 {
+  color: var(--moz-text);
+  font-weight: 800;
+  line-height: 1.2;
+}
+.slidev-layout h2 {
+  color: var(--moz-accent);
+  font-weight: 600;
+}
+.slidev-layout strong {
+  color: var(--moz-text);
+}
+.slidev-layout a {
+  color: var(--moz-accent);
+}
+.slidev-layout code,
+.slidev-layout pre {
+  font-family: var(--moz-font-mono);
+}
+
+/* Bold line directly under a title reads as the subtitle */
+.slidev-layout h1 + p > strong:only-child {
+  color: var(--moz-text-body);
+  font-weight: 600;
+}
+
+.slidev-layout img {
+  border-radius: var(--moz-radius-sm);
+}
+
+/* Hide Slidev's go-to dialog so stray keystrokes don't open it mid-talk */
+[id*='goto-dialog'] {
+  display: none !important;
+}

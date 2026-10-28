@@ -1,0 +1,23 @@
+:root {
+  /* Surfaces */
+  --moz-bg: #121212;
+  --moz-surface: #2a2a2a;
+  --moz-surface-accent: #1a2a1a;
+  --moz-border: #444444;
+
+  /* Text */
+  --moz-text: #ffffff;
+  --moz-text-body: #cccccc;
+  --moz-text-muted: #999999;
+
+  /* Accent */
+  --moz-accent: #d6ffcd;
+
+  /* Type */
+  --moz-font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --moz-font-mono: 'Fira Code', ui-monospace, monospace;
+
+  /* Shape */
+  --moz-radius: 8px;
+  --moz-radius-sm: 4px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "slidev-theme-mozilla",
+  "version": "0.1.0",
+  "description": "Dark Mozilla-style Slidev theme with a mint accent, extracted from the MozFest 2026 talk.",
+  "keywords": ["slidev-theme", "slidev", "mozilla"],
+  "license": "MPL-2.0",
+  "engines": { "slidev": ">=0.48.0" },
+  "slidev": {
+    "colorSchema": "dark",
+    "defaults": {
+      "fonts": { "sans": "Inter", "mono": "Fira Code" },
+      "transition": "fade",
+      "mdc": true
+    }
+  },
+  "files": ["layouts", "components", "styles", "assets", "example.md"]
+}
